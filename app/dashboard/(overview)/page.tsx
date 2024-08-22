@@ -5,6 +5,12 @@ import { lusitana } from "@/app/ui/fonts";
 import CardWrapper from "@/app/ui/dashboard/cards";
 import { Suspense } from "react";
 import { LatestInvoicesSkeleton, RevenueChartSkeleton, CardsSkeleton } from "@/app/ui/skeletons";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Dashboard',
+    description: 'The official Next.js Learn Dashboard built with App Router.',
+};
 
 export default async function Page() {
 
